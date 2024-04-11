@@ -7,6 +7,8 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
 }
 
 input, select{
@@ -56,7 +58,7 @@ h1 {
 }
 
 #converter:active {
-    transform: scale(0.9);
+    transform: scale(1);
     transition: all 0.1s ease-in;
 }
 
