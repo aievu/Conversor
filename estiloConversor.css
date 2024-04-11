@@ -3,6 +3,12 @@
     font-family: sans-serif;
 }
 
+body {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
 input, select{
     padding: 5px;
     width: 270px;
