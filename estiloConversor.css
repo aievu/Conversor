@@ -16,13 +16,14 @@ h1 {
 }
 
 .container {
-    border: 1px solid black;
+    border: 3px solid black;
     width: 300px;
     height: 310px;
     text-align: center;
     margin: auto;
     border-radius: 10px;
     margin-top: 100px;
+    box-shadow: 5px 3px rgb(95, 95, 95);
 }
 
 #valor {
