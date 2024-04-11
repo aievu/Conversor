@@ -46,6 +46,12 @@ h1 {
     background: tomato;
     transition: all 0.3s ease-in;
     transform:  scale(1.02);
+    cursor: pointer;
+}
+
+#converter:active {
+    transform: scale(0.9);
+    transition: all 0.1s ease-in;
 }
 
 #resultado {
