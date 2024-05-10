@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -8,19 +8,18 @@
 body {
     display: flex;
     width: 100%;
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    background-color: rgb(215, 250, 234);
 }
 
 input, select{
     padding: 5px;
     width: 270px;
+    height: 40px;
     margin-bottom: 20px;
     border-radius: 10px;
     background-color: black;
     color: white;
+    font-size: 20px;
 }
 
 h1 {
@@ -33,10 +32,10 @@ h1 {
 .container {
     border: 3px solid black;
     width: 300px;
-    height: 310px;
+    height: auto;
     text-align: center;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 100px;
     box-shadow: 5px 3px black;
     background-color: black;
@@ -50,13 +49,31 @@ h1 {
     font-weight: 700;
 }
 
+#ValorUsuario {
+    background-color: rgb(63, 63, 63);
+    border: none;
+    outline: none;
+}
+
+#ValorUsuario:hover {
+    background-color: rgb(99, 99, 99) ;
+    transition: all 0.2s ease-in;
+}
+
+#moeda1, #moeda2 {
+    border-color: rgb(31, 31, 31);
+    outline: none;
+}
+
+
 #converter {
     color: white;
     background-color: brown;
     border-color: brown;
     border-radius: 10px;
     width: 270px;
-    height: 30px;
+    height: 40px;
+    font-weight: 700;
 }
 
 #converter:hover {
@@ -73,9 +90,8 @@ h1 {
 
 #resultado {
     margin-top: 20px;
-    margin-left: 10px;
     text-align: start;
     margin-left: 15px;
+    margin-bottom: 15px;
     color: white;
 }
-
