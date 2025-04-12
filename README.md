@@ -7,7 +7,7 @@ Este projeto é um conversor de moedas simples, desenvolvido em **PHP puro**, qu
 ## 🚀 Funcionalidades
 
 - Conversão entre moedas com base em cotações reais.
-- Suporte a moedas como **Real (BRL)**, **Dólar (USD)**, **Euro (EUR)** e **Bitcoin (BTC)**.
+- Suporte a moedas como **Real (BRL)**, **Dólar (USD)**, **Euro (EUR)**, **Bitcoin (BTC)** e **Peso Chileno (CLP)**.
 - Atualização automática dos valores de cotação via requisição HTTP.
 - Tratamento de exceções e lógica especial para pares não suportados diretamente pela API (ex: BRL → BTC).
 - Mantém os valores preenchidos no formulário após a conversão.
